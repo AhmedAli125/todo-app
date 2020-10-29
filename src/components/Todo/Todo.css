@@ -1,0 +1,49 @@
+.todoClass{
+    width: 90%;
+    margin: 5px auto;
+    padding: 2px;
+    display: flex;
+    border-left: 10px solid rgb(75, 75, 75);
+    background-color: rgb(211, 210, 210);
+}
+
+.todoTitle{
+    /* background-color: khaki; */
+    width:70%;
+    height: 5vh;
+    padding: 10px 5px 5px 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+}
+
+.editClass, .deleteClass{
+    background: none;
+    height: 40px;
+    width: 15%;
+    margin: 10px;
+    /* border: 1px solid rgb(218, 214, 214); */
+    border-radius: 5px;
+    font-size: 22px;
+    outline: none;
+}
+
+.editClass{
+    border: 1px solid rgb(58, 94, 255);
+}
+.deleteClass{
+    border: 1px solid rgb(255, 58, 58);
+}
+
+.editClass:hover{
+    background-color: rgb(58, 94, 255);
+    color: white;
+    transition: all ease-in-out 0.1s;
+}
+
+.deleteClass:hover{
+    background-color: rgb(255, 58, 58);
+    color: white;
+    transition: all ease-in-out 0.1s;
+}

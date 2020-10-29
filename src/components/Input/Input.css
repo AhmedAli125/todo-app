@@ -1,0 +1,48 @@
+.formClass{
+    /* background-color: brown; */
+    width: 80%;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+.inputClass{
+    height: 40px;
+    font-size: 22px;
+    padding: 10px;
+    width: 50%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    /* font-weight: bolder; */
+}
+
+.addClass, .deleteAll{
+    background: none;
+    height: 40px;
+    width: 20%;
+    margin: 0 10px;
+    border: 1px solid rgb(218, 214, 214);
+    border-radius: 5px;
+    font-size: 22px;
+    outline: none;
+}
+
+.inputClass:focus{
+    border-bottom: 2px solid rgb(58, 94, 255);
+    background-color: rgb(224, 224, 224);
+    /* color: white; */
+}
+
+.addClass:hover{
+    background-color:  rgb(58, 94, 255);
+    transition: all ease-in-out 0.2s;
+    color: white;
+}
+
+.deleteAll:hover{
+    background-color:  rgb(255, 58, 58);
+    transition: all ease-in-out 0.2s;
+    color: white;
+}
+
